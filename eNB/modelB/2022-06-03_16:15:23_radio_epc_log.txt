@@ -1,0 +1,110 @@
+[2022-06-03 16:15:23.840318] 
+[2022-06-03 16:15:23.840362] Built in Release mode using commit 25f494e4e on branch master.
+[2022-06-03 16:15:23.840372] 
+[2022-06-03 16:15:23.840381] 
+[2022-06-03 16:15:23.840390] ---  Software Radio Systems EPC  ---
+[2022-06-03 16:15:23.840399] 
+[2022-06-03 16:15:23.840408] Couldn't open , trying /root/.config/srsran/epc.conf
+[2022-06-03 16:15:23.840425] Reading configuration file /root/.config/srsran/epc.conf...
+[2022-06-03 16:15:23.840434] Couldn't open user_db.csv, trying /root/.config/srsran/user_db.csv
+[2022-06-03 16:15:23.840442] HSS Initialized.
+[2022-06-03 16:15:23.840450] MME S11 Initialized
+[2022-06-03 16:15:23.840458] MME GTP-C Initialized
+[2022-06-03 16:15:23.840466] MME Initialized. MCC: 0xf001, MNC: 0xff01
+[2022-06-03 16:15:23.840476] SPGW GTP-U Initialized.
+[2022-06-03 16:15:23.840487] SPGW S11 Initialized.
+[2022-06-03 16:15:23.840498] SP-GW Initialized.
+[2022-06-03 16:15:23.981466] Received S1 Setup Request.
+[2022-06-03 16:15:23.981531] S1 Setup Request - eNB Name: srsenb01, eNB id: 0x19b
+[2022-06-03 16:15:23.981540] S1 Setup Request - MCC:001, MNC:01
+[2022-06-03 16:15:23.981547] S1 Setup Request - TAC 7, B-PLMN 0xf110
+[2022-06-03 16:15:23.981553] S1 Setup Request - Paging DRX v128
+[2022-06-03 16:15:23.981559] Sending S1 Setup Response
+[2022-06-03 16:15:47.303292] Initial UE message: LIBLTE_MME_MSG_TYPE_ATTACH_REQUEST
+[2022-06-03 16:15:47.303378] Received Initial UE message -- Attach Request
+[2022-06-03 16:15:47.303437] Attach request -- M-TMSI: 0xbab10c2b
+[2022-06-03 16:15:47.303467] Attach request -- eNB-UE S1AP Id: 1
+[2022-06-03 16:15:47.303490] Attach request -- Attach type: 1
+[2022-06-03 16:15:47.303522] Attach Request -- UE Network Capabilities EEA: 11110000
+[2022-06-03 16:15:47.303548] Attach Request -- UE Network Capabilities EIA: 01110000
+[2022-06-03 16:15:47.303574] Attach Request -- MS Network Capabilities Present: false
+[2022-06-03 16:15:47.303600] PDN Connectivity Request -- EPS Bearer Identity requested: 0
+[2022-06-03 16:15:47.303625] PDN Connectivity Request -- Procedure Transaction Id: 1
+[2022-06-03 16:15:47.303652] PDN Connectivity Request -- ESM Information Transfer requested: false
+[2022-06-03 16:15:47.328765] UL NAS: Received Identity Response
+[2022-06-03 16:15:47.328812] ID Response -- IMSI: 001010123456789
+[2022-06-03 16:15:47.328841] Downlink NAS: Sent Authentication Request
+[2022-06-03 16:15:47.363237] UL NAS: Received Authentication Response
+[2022-06-03 16:15:47.363297] Authentication Response -- IMSI 001010123456789
+[2022-06-03 16:15:47.363323] UE Authentication Accepted.
+[2022-06-03 16:15:47.363346] Generating KeNB with UL NAS COUNT: 0
+[2022-06-03 16:15:47.363593] Downlink NAS: Sending NAS Security Mode Command.
+[2022-06-03 16:15:47.383264] UL NAS: Received Security Mode Complete
+[2022-06-03 16:15:47.383283] Security Mode Command Complete -- IMSI: 001010123456789
+[2022-06-03 16:15:47.383290] Getting subscription information -- QCI 7
+[2022-06-03 16:15:47.383296] Sending Create Session Request.
+[2022-06-03 16:15:47.383303] Creating Session Response -- IMSI: 1010123456789
+[2022-06-03 16:15:47.383309] Creating Session Response -- MME control TEID: 1
+[2022-06-03 16:15:47.383317] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_CREATE_SESSION_REQUEST
+[2022-06-03 16:15:47.383325] SPGW: Allocated Ctrl TEID 1
+[2022-06-03 16:15:47.383331] SPGW: Allocated User TEID 1
+[2022-06-03 16:15:47.383340] SPGW: Allocate UE IP 172.16.0.2
+[2022-06-03 16:15:47.383349] Received Create Session Response
+[2022-06-03 16:15:47.383356] Create Session Response -- SPGW control TEID 1
+[2022-06-03 16:15:47.383363] Create Session Response -- SPGW S1-U Address: 127.0.1.100
+[2022-06-03 16:15:47.383371] SPGW Allocated IP 172.16.0.2 to IMSI 001010123456789
+[2022-06-03 16:15:47.383379] Adding attach accept to Initial Context Setup Request
+[2022-06-03 16:15:47.383451] Sent Initial Context Setup Request. E-RAB id 5 
+[2022-06-03 16:15:47.624501] Received Initial Context Setup Response
+[2022-06-03 16:15:47.624520] E-RAB Context Setup. E-RAB id 5
+[2022-06-03 16:15:47.624528] E-RAB Context -- eNB TEID 0x1; eNB GTP-U Address 127.0.1.1
+[2022-06-03 16:15:47.624586] UL NAS: Received Attach Complete
+[2022-06-03 16:15:47.624596] Unpacked Attached Complete Message. IMSI 1010123456789
+[2022-06-03 16:15:47.624605] Unpacked Activate Default EPS Bearer message. EPS Bearer id 5
+[2022-06-03 16:15:47.624614] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_MODIFY_BEARER_REQUEST
+[2022-06-03 16:15:47.624699] Sending EMM Information
+[2022-06-03 16:34:20.082807] Initial UE message: LIBLTE_MME_MSG_TYPE_ATTACH_REQUEST
+[2022-06-03 16:34:20.082906] Received Initial UE message -- Attach Request
+[2022-06-03 16:34:20.082948] Attach request -- M-TMSI: 0x47408b80
+[2022-06-03 16:34:20.082976] Attach request -- eNB-UE S1AP Id: 2
+[2022-06-03 16:34:20.082998] Attach request -- Attach type: 1
+[2022-06-03 16:34:20.083028] Attach Request -- UE Network Capabilities EEA: 11110000
+[2022-06-03 16:34:20.083060] Attach Request -- UE Network Capabilities EIA: 01110000
+[2022-06-03 16:34:20.083083] Attach Request -- MS Network Capabilities Present: false
+[2022-06-03 16:34:20.083110] PDN Connectivity Request -- EPS Bearer Identity requested: 0
+[2022-06-03 16:34:20.083141] PDN Connectivity Request -- Procedure Transaction Id: 1
+[2022-06-03 16:34:20.083165] PDN Connectivity Request -- ESM Information Transfer requested: false
+[2022-06-03 16:34:20.083190] Attach Request -- Found previously attach UE.
+[2022-06-03 16:34:20.083224] Found UE context. IMSI: 001010123456789, old eNB UE S1ap Id 1, old MME UE S1AP Id 1
+[2022-06-03 16:34:20.083252] Received GUTI-Attach Request from attached user.
+[2022-06-03 16:34:20.083287] There are active E-RABs, send release access bearers request
+[2022-06-03 16:34:20.083321] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_DELETE_SESSION_REQUEST
+[2022-06-03 16:34:20.083348] GUTI Attach request NAS integrity failed.
+[2022-06-03 16:34:20.083384] RE-starting authentication procedure.
+[2022-06-03 16:34:20.083439] Downlink NAS: Sent Authentication Request
+[2022-06-03 16:34:20.083487] Received UE Context Release Complete. MME-UE S1AP Id 1
+[2022-06-03 16:34:20.083498] No UE context to release found. MME-UE S1AP Id: 1
+[2022-06-03 16:34:20.135268] UL NAS: Received Authentication Response
+[2022-06-03 16:34:20.135305] Authentication Response -- IMSI 001010123456789
+[2022-06-03 16:34:20.135315] UE Authentication Accepted.
+[2022-06-03 16:34:20.135322] Generating KeNB with UL NAS COUNT: 0
+[2022-06-03 16:34:20.135395] Downlink NAS: Sending NAS Security Mode Command.
+[2022-06-03 16:34:20.162669] UL NAS: Received Security Mode Complete
+[2022-06-03 16:34:20.162705] Security Mode Command Complete -- IMSI: 001010123456789
+[2022-06-03 16:34:20.162714] Getting subscription information -- QCI 7
+[2022-06-03 16:34:20.162722] Sending Create Session Request.
+[2022-06-03 16:34:20.162753] Creating Session Response -- IMSI: 1010123456789
+[2022-06-03 16:34:20.162762] Creating Session Response -- MME control TEID: 2
+[2022-06-03 16:34:20.162769] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_CREATE_SESSION_REQUEST
+[2022-06-03 16:34:20.162816] SPGW: Allocated Ctrl TEID 2
+[2022-06-03 16:34:20.162841] SPGW: Allocated User TEID 2
+[2022-06-03 16:34:20.162849] SPGW: Allocate UE IP 172.16.0.3
+[2022-06-03 16:34:20.162861] Received Create Session Response
+[2022-06-03 16:34:20.162870] Create Session Response -- SPGW control TEID 2
+[2022-06-03 16:34:20.162878] Create Session Response -- SPGW S1-U Address: 127.0.1.100
+[2022-06-03 16:34:20.162886] SPGW Allocated IP 172.16.0.3 to IMSI 001010123456789
+[2022-06-03 16:34:20.162894] Adding attach accept to Initial Context Setup Request
+[2022-06-03 16:34:20.162902] Sent Initial Context Setup Request. E-RAB id 5 
+[2022-06-03 16:34:20.407489] Received Initial Context Setup Response
+[2022-06-03 16:34:20.407518] E-RAB Context Setup. E-RAB id 5
+[2022-06-03 16:34:20.407526] E-RAB Context -- eNB TEID 0x2; eNB GTP-U Address 127.0.1.1

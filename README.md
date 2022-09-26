@@ -23,7 +23,10 @@ For storing constraints, this repository does not contain the PCAP files. If you
 <!-- USAGE EXAMPLES -->
 ## Dataset Description
 
-TBD
+Traffic models description: 
+- **Model A** corresponds to a single UL flow with a ∼16 Mbps target application rate.
+- **Model B** corresponds to two separate UL flows, both with a ∼8.3 Mbps target application rate.
+- **Model C** corresponds to two separate UL flows, both with a ∼16 Mbps target application rate.
 
 <!-- USAGE EXAMPLES -->
 ## Usage

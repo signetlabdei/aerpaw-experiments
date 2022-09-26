@@ -1,0 +1,315 @@
+[2022-06-10 19:52:35.905665] 
+[2022-06-10 19:52:35.905720] Built in Release mode using commit 25f494e4e on branch master.
+[2022-06-10 19:52:35.905729] 
+[2022-06-10 19:52:35.905736] 
+[2022-06-10 19:52:35.905744] ---  Software Radio Systems EPC  ---
+[2022-06-10 19:52:35.905751] 
+[2022-06-10 19:52:35.905759] Couldn't open , trying /root/.config/srsran/epc.conf
+[2022-06-10 19:52:35.905767] Reading configuration file /root/.config/srsran/epc.conf...
+[2022-06-10 19:52:35.905775] Couldn't open user_db.csv, trying /root/.config/srsran/user_db.csv
+[2022-06-10 19:52:35.905784] HSS Initialized.
+[2022-06-10 19:52:35.905793] MME S11 Initialized
+[2022-06-10 19:52:35.905801] MME GTP-C Initialized
+[2022-06-10 19:52:35.905809] MME Initialized. MCC: 0xf001, MNC: 0xff01
+[2022-06-10 19:52:35.905817] SPGW GTP-U Initialized.
+[2022-06-10 19:52:35.905825] SPGW S11 Initialized.
+[2022-06-10 19:52:35.905833] SP-GW Initialized.
+[2022-06-10 19:52:36.045350] Received S1 Setup Request.
+[2022-06-10 19:52:36.045409] S1 Setup Request - eNB Name: srsenb01, eNB id: 0x19b
+[2022-06-10 19:52:36.045418] S1 Setup Request - MCC:001, MNC:01
+[2022-06-10 19:52:36.045424] S1 Setup Request - TAC 7, B-PLMN 0xf110
+[2022-06-10 19:52:36.045430] S1 Setup Request - Paging DRX v128
+[2022-06-10 19:52:36.045437] Sending S1 Setup Response
+[2022-06-10 19:52:58.707128] Initial UE message: LIBLTE_MME_MSG_TYPE_ATTACH_REQUEST
+[2022-06-10 19:52:58.707212] Received Initial UE message -- Attach Request
+[2022-06-10 19:52:58.707223] Attach request -- M-TMSI: 0xbab10c2b
+[2022-06-10 19:52:58.707231] Attach request -- eNB-UE S1AP Id: 1
+[2022-06-10 19:52:58.707238] Attach request -- Attach type: 1
+[2022-06-10 19:52:58.707245] Attach Request -- UE Network Capabilities EEA: 11110000
+[2022-06-10 19:52:58.707255] Attach Request -- UE Network Capabilities EIA: 01110000
+[2022-06-10 19:52:58.707264] Attach Request -- MS Network Capabilities Present: false
+[2022-06-10 19:52:58.707271] PDN Connectivity Request -- EPS Bearer Identity requested: 0
+[2022-06-10 19:52:58.707279] PDN Connectivity Request -- Procedure Transaction Id: 1
+[2022-06-10 19:52:58.707287] PDN Connectivity Request -- ESM Information Transfer requested: false
+[2022-06-10 19:52:58.727062] UL NAS: Received Identity Response
+[2022-06-10 19:52:58.727149] ID Response -- IMSI: 001010123456789
+[2022-06-10 19:52:58.727247] Downlink NAS: Sent Authentication Request
+[2022-06-10 19:52:58.747061] UL NAS: Received Authentication Response
+[2022-06-10 19:52:58.747160] Authentication Response -- IMSI 001010123456789
+[2022-06-10 19:52:58.747189] UE Authentication Accepted.
+[2022-06-10 19:52:58.747213] Generating KeNB with UL NAS COUNT: 0
+[2022-06-10 19:52:58.747360] Downlink NAS: Sending NAS Security Mode Command.
+[2022-06-10 19:52:58.767330] UL NAS: Received Security Mode Complete
+[2022-06-10 19:52:58.767344] Security Mode Command Complete -- IMSI: 001010123456789
+[2022-06-10 19:52:58.767351] Getting subscription information -- QCI 7
+[2022-06-10 19:52:58.767358] Sending Create Session Request.
+[2022-06-10 19:52:58.767366] Creating Session Response -- IMSI: 1010123456789
+[2022-06-10 19:52:58.767374] Creating Session Response -- MME control TEID: 1
+[2022-06-10 19:52:58.767383] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_CREATE_SESSION_REQUEST
+[2022-06-10 19:52:58.767392] SPGW: Allocated Ctrl TEID 1
+[2022-06-10 19:52:58.767399] SPGW: Allocated User TEID 1
+[2022-06-10 19:52:58.767406] SPGW: Allocate UE IP 172.16.0.2
+[2022-06-10 19:52:58.767438] Received Create Session Response
+[2022-06-10 19:52:58.767461] Create Session Response -- SPGW control TEID 1
+[2022-06-10 19:52:58.767469] Create Session Response -- SPGW S1-U Address: 127.0.1.100
+[2022-06-10 19:52:58.767478] SPGW Allocated IP 172.16.0.2 to IMSI 001010123456789
+[2022-06-10 19:52:58.767487] Adding attach accept to Initial Context Setup Request
+[2022-06-10 19:52:58.767581] Sent Initial Context Setup Request. E-RAB id 5 
+[2022-06-10 19:52:59.012769] Received Initial Context Setup Response
+[2022-06-10 19:52:59.012825] E-RAB Context Setup. E-RAB id 5
+[2022-06-10 19:52:59.012857] E-RAB Context -- eNB TEID 0x1; eNB GTP-U Address 127.0.1.1
+[2022-06-10 19:52:59.013061] UL NAS: Received Attach Complete
+[2022-06-10 19:52:59.013104] Unpacked Attached Complete Message. IMSI 1010123456789
+[2022-06-10 19:52:59.013112] Unpacked Activate Default EPS Bearer message. EPS Bearer id 5
+[2022-06-10 19:52:59.013118] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_MODIFY_BEARER_REQUEST
+[2022-06-10 19:52:59.013219] Sending EMM Information
+[2022-06-10 19:56:47.097128] Initial UE message: NAS Message Type Unknown
+[2022-06-10 19:56:47.097271] Received Initial UE message -- Service Request
+[2022-06-10 19:56:47.097334] Service request -- S-TMSI 0x7c5bf64c
+[2022-06-10 19:56:47.097369] Service request -- eNB UE S1AP Id 2
+[2022-06-10 19:56:47.097410] Service Request -- Short MAC valid
+[2022-06-10 19:56:47.097444] There are active E-RABs, send release access bearers request
+[2022-06-10 19:56:47.097483] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_RELEASE_ACCESS_BEARERS_REQUEST
+[2022-06-10 19:56:47.097524] Service Request -- User is ECM DISCONNECTED
+[2022-06-10 19:56:47.097552] UE previously assigned IP: 172.16.0.2
+[2022-06-10 19:56:47.097590] Generating KeNB with UL NAS COUNT: 4
+[2022-06-10 19:56:47.097633] UE Ctr TEID 0
+[2022-06-10 19:56:47.097641] Sent Initial Context Setup Request. E-RAB id 5 
+[2022-06-10 19:56:47.097654] Received UE Context Release Complete. MME-UE S1AP Id 1
+[2022-06-10 19:56:47.097662] No UE context to release found. MME-UE S1AP Id: 1
+[2022-06-10 19:56:47.356736] Received Initial Context Setup Response
+[2022-06-10 19:56:47.356781] E-RAB Context Setup. E-RAB id 5
+[2022-06-10 19:56:47.356789] E-RAB Context -- eNB TEID 0x2; eNB GTP-U Address 127.0.1.1
+[2022-06-10 19:56:47.356796] Initial Context Setup Response triggered from Service Request.
+[2022-06-10 19:56:47.356802] Sending Modify Bearer Request.
+[2022-06-10 19:56:47.356815] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_MODIFY_BEARER_REQUEST
+[2022-06-10 19:58:11.310793] Received UE Context Release Request. MME-UE S1AP Id 2
+[2022-06-10 19:58:11.310841] There are active E-RABs, send release access bearers request
+[2022-06-10 19:58:11.310862] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_RELEASE_ACCESS_BEARERS_REQUEST
+[2022-06-10 19:58:11.311048] Received UE Context Release Complete. MME-UE S1AP Id 2
+[2022-06-10 19:58:11.311059] UE Context Release Completed.
+[2022-06-10 19:58:18.068810] Found UE for Downlink Notification 
+[2022-06-10 19:58:18.068972] MME Ctr TEID 0x1, IMSI: 001010123456789
+[2022-06-10 19:58:20.068916] T3413 expired -- Could not page the ue.
+[2022-06-10 19:58:20.069053] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_DOWNLINK_DATA_NOTIFICATION_FAILURE_INDICATION
+[2022-06-10 19:58:31.256860] Initial UE message: NAS Message Type Unknown
+[2022-06-10 19:58:31.256904] Received Initial UE message -- Service Request
+[2022-06-10 19:58:31.256928] Service request -- S-TMSI 0x7c5bf64c
+[2022-06-10 19:58:31.256935] Service request -- eNB UE S1AP Id 3
+[2022-06-10 19:58:31.256942] Service Request -- Short MAC valid
+[2022-06-10 19:58:31.256949] Service Request -- User is ECM DISCONNECTED
+[2022-06-10 19:58:31.256969] UE previously assigned IP: 172.16.0.2
+[2022-06-10 19:58:31.256976] Generating KeNB with UL NAS COUNT: 10
+[2022-06-10 19:58:31.256982] UE Ctr TEID 0
+[2022-06-10 19:58:31.256989] Sent Initial Context Setup Request. E-RAB id 5 
+[2022-06-10 19:58:31.540853] Received Initial Context Setup Response
+[2022-06-10 19:58:31.540986] E-RAB Context Setup. E-RAB id 5
+[2022-06-10 19:58:31.541031] E-RAB Context -- eNB TEID 0x3; eNB GTP-U Address 127.0.1.1
+[2022-06-10 19:58:31.541083] Initial Context Setup Response triggered from Service Request.
+[2022-06-10 19:58:31.541127] Sending Modify Bearer Request.
+[2022-06-10 19:58:31.541175] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_MODIFY_BEARER_REQUEST
+[2022-06-10 20:03:54.254547] Initial UE message: NAS Message Type Unknown
+[2022-06-10 20:03:54.254591] Received Initial UE message -- Service Request
+[2022-06-10 20:03:54.254600] Service request -- S-TMSI 0x7c5bf64c
+[2022-06-10 20:03:54.254619] Service request -- eNB UE S1AP Id 4
+[2022-06-10 20:03:54.254629] Service Request -- Short MAC valid
+[2022-06-10 20:03:54.254636] There are active E-RABs, send release access bearers request
+[2022-06-10 20:03:54.254645] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_RELEASE_ACCESS_BEARERS_REQUEST
+[2022-06-10 20:03:54.254677] Service Request -- User is ECM DISCONNECTED
+[2022-06-10 20:03:54.254686] UE previously assigned IP: 172.16.0.2
+[2022-06-10 20:03:54.254732] Generating KeNB with UL NAS COUNT: 11
+[2022-06-10 20:03:54.254764] UE Ctr TEID 0
+[2022-06-10 20:03:54.254778] Sent Initial Context Setup Request. E-RAB id 5 
+[2022-06-10 20:03:54.254799] Received UE Context Release Complete. MME-UE S1AP Id 3
+[2022-06-10 20:03:54.254810] No UE context to release found. MME-UE S1AP Id: 3
+[2022-06-10 20:03:54.452716] Found UE for Downlink Notification 
+[2022-06-10 20:03:54.452750] MME Ctr TEID 0x1, IMSI: 001010123456789
+[2022-06-10 20:03:54.452806] Received Initial Context Setup Response
+[2022-06-10 20:03:54.452821] E-RAB Context Setup. E-RAB id 5
+[2022-06-10 20:03:54.452863] E-RAB Context -- eNB TEID 0x4; eNB GTP-U Address 127.0.1.1
+[2022-06-10 20:03:54.452874] Initial Context Setup Response triggered from Service Request.
+[2022-06-10 20:03:54.452885] Sending Modify Bearer Request.
+[2022-06-10 20:03:54.452895] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_MODIFY_BEARER_REQUEST
+[2022-06-10 20:03:54.452903] Modify Bearer Request received after Downling Data Notification was sent
+[2022-06-10 20:03:56.452786] T3413 expired -- Could not page the ue.
+[2022-06-10 20:03:56.452834] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_DOWNLINK_DATA_NOTIFICATION_FAILURE_INDICATION
+[2022-06-10 20:05:31.772438] Initial UE message: NAS Message Type Unknown
+[2022-06-10 20:05:31.772501] Received Initial UE message -- Service Request
+[2022-06-10 20:05:31.772524] Service request -- S-TMSI 0x7c5bf64c
+[2022-06-10 20:05:31.772537] Service request -- eNB UE S1AP Id 5
+[2022-06-10 20:05:31.772550] Service Request -- Short MAC valid
+[2022-06-10 20:05:31.772574] There are active E-RABs, send release access bearers request
+[2022-06-10 20:05:31.772587] Service Request -- User is ECM DISCONNECTED
+[2022-06-10 20:05:31.772608] UE previously assigned IP: 172.16.0.2
+[2022-06-10 20:05:31.772622] Generating KeNB with UL NAS COUNT: 14
+[2022-06-10 20:05:31.772635] UE Ctr TEID 0
+[2022-06-10 20:05:31.772659] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_RELEASE_ACCESS_BEARERS_REQUEST
+[2022-06-10 20:05:31.772669] Sent Initial Context Setup Request. E-RAB id 5 
+[2022-06-10 20:05:31.772682] Received UE Context Release Complete. MME-UE S1AP Id 4
+[2022-06-10 20:05:31.772699] No UE context to release found. MME-UE S1AP Id: 4
+[2022-06-10 20:05:32.069734] Received Initial Context Setup Response
+[2022-06-10 20:05:32.069774] E-RAB Context Setup. E-RAB id 5
+[2022-06-10 20:05:32.069787] E-RAB Context -- eNB TEID 0x5; eNB GTP-U Address 127.0.1.1
+[2022-06-10 20:05:32.069798] Initial Context Setup Response triggered from Service Request.
+[2022-06-10 20:05:32.069810] Sending Modify Bearer Request.
+[2022-06-10 20:05:32.069823] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_MODIFY_BEARER_REQUEST
+[2022-06-10 20:07:13.040461] Received UE Context Release Request. MME-UE S1AP Id 5
+[2022-06-10 20:07:13.040546] There are active E-RABs, send release access bearers request
+[2022-06-10 20:07:13.040593] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_RELEASE_ACCESS_BEARERS_REQUEST
+[2022-06-10 20:07:13.041007] Received UE Context Release Complete. MME-UE S1AP Id 5
+[2022-06-10 20:07:13.041046] UE Context Release Completed.
+[2022-06-10 20:07:16.928542] Initial UE message: NAS Message Type Unknown
+[2022-06-10 20:07:16.928592] Received Initial UE message -- Service Request
+[2022-06-10 20:07:16.928604] Service request -- S-TMSI 0x7c5bf64c
+[2022-06-10 20:07:16.928611] Service request -- eNB UE S1AP Id 6
+[2022-06-10 20:07:16.928618] Service Request -- Short MAC valid
+[2022-06-10 20:07:16.928628] Service Request -- User is ECM DISCONNECTED
+[2022-06-10 20:07:16.928636] UE previously assigned IP: 172.16.0.2
+[2022-06-10 20:07:16.928645] Generating KeNB with UL NAS COUNT: 16
+[2022-06-10 20:07:16.928653] UE Ctr TEID 0
+[2022-06-10 20:07:16.928686] Sent Initial Context Setup Request. E-RAB id 5 
+[2022-06-10 20:07:17.204727] Received Initial Context Setup Response
+[2022-06-10 20:07:17.204761] E-RAB Context Setup. E-RAB id 5
+[2022-06-10 20:07:17.204769] E-RAB Context -- eNB TEID 0x6; eNB GTP-U Address 127.0.1.1
+[2022-06-10 20:07:17.204776] Initial Context Setup Response triggered from Service Request.
+[2022-06-10 20:07:17.204782] Sending Modify Bearer Request.
+[2022-06-10 20:07:17.204788] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_MODIFY_BEARER_REQUEST
+[2022-06-10 20:10:16.030239] Received UE Context Release Request. MME-UE S1AP Id 6
+[2022-06-10 20:10:16.030283] There are active E-RABs, send release access bearers request
+[2022-06-10 20:10:16.030293] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_RELEASE_ACCESS_BEARERS_REQUEST
+[2022-06-10 20:10:16.030501] Received UE Context Release Complete. MME-UE S1AP Id 6
+[2022-06-10 20:10:16.030511] UE Context Release Completed.
+[2022-06-10 20:10:16.404775] Found UE for Downlink Notification 
+[2022-06-10 20:10:16.404876] MME Ctr TEID 0x1, IMSI: 001010123456789
+[2022-06-10 20:10:16.764332] Initial UE message: NAS Message Type Unknown
+[2022-06-10 20:10:16.764428] Received Initial UE message -- Service Request
+[2022-06-10 20:10:16.764439] Service request -- S-TMSI 0x7c5bf64c
+[2022-06-10 20:10:16.764446] Service request -- eNB UE S1AP Id 7
+[2022-06-10 20:10:16.764533] Service Request -- Short MAC valid
+[2022-06-10 20:10:16.764545] Service Request -- User is ECM DISCONNECTED
+[2022-06-10 20:10:16.764553] UE previously assigned IP: 172.16.0.2
+[2022-06-10 20:10:16.764563] Generating KeNB with UL NAS COUNT: 18
+[2022-06-10 20:10:16.764572] UE Ctr TEID 0
+[2022-06-10 20:10:16.764603] Sent Initial Context Setup Request. E-RAB id 5 
+[2022-06-10 20:10:18.283411] Received Initial Context Setup Response
+[2022-06-10 20:10:18.283439] E-RAB Context Setup. E-RAB id 5
+[2022-06-10 20:10:18.283447] E-RAB Context -- eNB TEID 0x7; eNB GTP-U Address 127.0.1.1
+[2022-06-10 20:10:18.283454] Initial Context Setup Response triggered from Service Request.
+[2022-06-10 20:10:18.283461] Sending Modify Bearer Request.
+[2022-06-10 20:10:18.283467] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_MODIFY_BEARER_REQUEST
+[2022-06-10 20:10:18.283474] Modify Bearer Request received after Downling Data Notification was sent
+[2022-06-10 20:10:21.094300] Received UE Context Release Request. MME-UE S1AP Id 7
+[2022-06-10 20:10:21.094379] There are active E-RABs, send release access bearers request
+[2022-06-10 20:10:21.094387] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_RELEASE_ACCESS_BEARERS_REQUEST
+[2022-06-10 20:10:21.094508] Received UE Context Release Complete. MME-UE S1AP Id 7
+[2022-06-10 20:10:21.094519] UE Context Release Completed.
+[2022-06-10 20:10:21.410395] Initial UE message: NAS Message Type Unknown
+[2022-06-10 20:10:21.410421] Received Initial UE message -- Service Request
+[2022-06-10 20:10:21.410428] Service request -- S-TMSI 0x7c5bf64c
+[2022-06-10 20:10:21.410434] Service request -- eNB UE S1AP Id 8
+[2022-06-10 20:10:21.410475] Service Request -- Short MAC valid
+[2022-06-10 20:10:21.410483] Service Request -- User is ECM DISCONNECTED
+[2022-06-10 20:10:21.410490] UE previously assigned IP: 172.16.0.2
+[2022-06-10 20:10:21.410499] Generating KeNB with UL NAS COUNT: 19
+[2022-06-10 20:10:21.410507] UE Ctr TEID 0
+[2022-06-10 20:10:21.410530] Sent Initial Context Setup Request. E-RAB id 5 
+[2022-06-10 20:10:21.701801] Received Initial Context Setup Response
+[2022-06-10 20:10:21.701818] E-RAB Context Setup. E-RAB id 5
+[2022-06-10 20:10:21.701825] E-RAB Context -- eNB TEID 0x8; eNB GTP-U Address 127.0.1.1
+[2022-06-10 20:10:21.701832] Initial Context Setup Response triggered from Service Request.
+[2022-06-10 20:10:21.701838] Sending Modify Bearer Request.
+[2022-06-10 20:10:21.701847] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_MODIFY_BEARER_REQUEST
+[2022-06-10 20:14:17.304042] Initial UE message: NAS Message Type Unknown
+[2022-06-10 20:14:17.304083] Received Initial UE message -- Service Request
+[2022-06-10 20:14:17.304094] Service request -- S-TMSI 0x7c5bf64c
+[2022-06-10 20:14:17.304101] Service request -- eNB UE S1AP Id 9
+[2022-06-10 20:14:17.304144] Service Request -- Short MAC valid
+[2022-06-10 20:14:17.304163] There are active E-RABs, send release access bearers request
+[2022-06-10 20:14:17.304177] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_RELEASE_ACCESS_BEARERS_REQUEST
+[2022-06-10 20:14:17.304203] Service Request -- User is ECM DISCONNECTED
+[2022-06-10 20:14:17.304214] UE previously assigned IP: 172.16.0.2
+[2022-06-10 20:14:17.304223] Generating KeNB with UL NAS COUNT: 20
+[2022-06-10 20:14:17.304232] UE Ctr TEID 0
+[2022-06-10 20:14:17.304241] Sent Initial Context Setup Request. E-RAB id 5 
+[2022-06-10 20:14:17.304346] Received UE Context Release Complete. MME-UE S1AP Id 8
+[2022-06-10 20:14:17.304358] No UE context to release found. MME-UE S1AP Id: 8
+[2022-06-10 20:14:18.068745] Found UE for Downlink Notification 
+[2022-06-10 20:14:18.068791] MME Ctr TEID 0x1, IMSI: 001010123456789
+[2022-06-10 20:14:20.068843] T3413 expired -- Could not page the ue.
+[2022-06-10 20:14:20.068947] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_DOWNLINK_DATA_NOTIFICATION_FAILURE_INDICATION
+[2022-06-10 20:14:21.142172] Initial UE message: NAS Message Type Unknown
+[2022-06-10 20:14:21.142250] Received Initial UE message -- Service Request
+[2022-06-10 20:14:21.142259] Service request -- S-TMSI 0x7c5bf64c
+[2022-06-10 20:14:21.142265] Service request -- eNB UE S1AP Id 10
+[2022-06-10 20:14:21.142295] Service Request -- Short MAC valid
+[2022-06-10 20:14:21.142303] Service Request -- User is ECM DISCONNECTED
+[2022-06-10 20:14:21.142310] UE previously assigned IP: 172.16.0.2
+[2022-06-10 20:14:21.142316] Generating KeNB with UL NAS COUNT: 21
+[2022-06-10 20:14:21.142322] UE Ctr TEID 0
+[2022-06-10 20:14:21.142354] Sent Initial Context Setup Request. E-RAB id 5 
+[2022-06-10 20:14:21.420750] Received Initial Context Setup Response
+[2022-06-10 20:14:21.420776] E-RAB Context Setup. E-RAB id 5
+[2022-06-10 20:14:21.420784] E-RAB Context -- eNB TEID 0xa; eNB GTP-U Address 127.0.1.1
+[2022-06-10 20:14:21.420790] Initial Context Setup Response triggered from Service Request.
+[2022-06-10 20:14:21.420796] Sending Modify Bearer Request.
+[2022-06-10 20:14:21.420803] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_MODIFY_BEARER_REQUEST
+[2022-06-10 20:15:48.816231] Initial UE message: NAS Message Type Unknown
+[2022-06-10 20:15:48.816279] Received Initial UE message -- Service Request
+[2022-06-10 20:15:48.816289] Service request -- S-TMSI 0x7c5bf64c
+[2022-06-10 20:15:48.816296] Service request -- eNB UE S1AP Id 11
+[2022-06-10 20:15:48.816308] Service Request -- Short MAC valid
+[2022-06-10 20:15:48.816317] There are active E-RABs, send release access bearers request
+[2022-06-10 20:15:48.816374] Service Request -- User is ECM DISCONNECTED
+[2022-06-10 20:15:48.816383] UE previously assigned IP: 172.16.0.2
+[2022-06-10 20:15:48.816391] Generating KeNB with UL NAS COUNT: 22
+[2022-06-10 20:15:48.816399] UE Ctr TEID 0
+[2022-06-10 20:15:48.816408] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_RELEASE_ACCESS_BEARERS_REQUEST
+[2022-06-10 20:15:48.816416] Sent Initial Context Setup Request. E-RAB id 5 
+[2022-06-10 20:15:48.816493] Received UE Context Release Complete. MME-UE S1AP Id 10
+[2022-06-10 20:15:48.816501] No UE context to release found. MME-UE S1AP Id: 10
+[2022-06-10 20:15:49.100880] Received Initial Context Setup Response
+[2022-06-10 20:15:49.100964] E-RAB Context Setup. E-RAB id 5
+[2022-06-10 20:15:49.101000] E-RAB Context -- eNB TEID 0xb; eNB GTP-U Address 127.0.1.1
+[2022-06-10 20:15:49.101028] Initial Context Setup Response triggered from Service Request.
+[2022-06-10 20:15:49.101054] Sending Modify Bearer Request.
+[2022-06-10 20:15:49.101083] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_MODIFY_BEARER_REQUEST
+[2022-06-10 20:16:03.722138] Initial UE message: NAS Message Type Unknown
+[2022-06-10 20:16:03.722184] Received Initial UE message -- Service Request
+[2022-06-10 20:16:03.722195] Service request -- S-TMSI 0x7c5bf64c
+[2022-06-10 20:16:03.722201] Service request -- eNB UE S1AP Id 12
+[2022-06-10 20:16:03.722209] Service Request -- Short MAC valid
+[2022-06-10 20:16:03.722215] There are active E-RABs, send release access bearers request
+[2022-06-10 20:16:03.722234] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_RELEASE_ACCESS_BEARERS_REQUEST
+[2022-06-10 20:16:03.722255] Service Request -- User is ECM DISCONNECTED
+[2022-06-10 20:16:03.722270] UE previously assigned IP: 172.16.0.2
+[2022-06-10 20:16:03.722278] Generating KeNB with UL NAS COUNT: 24
+[2022-06-10 20:16:03.722286] UE Ctr TEID 0
+[2022-06-10 20:16:03.722294] Sent Initial Context Setup Request. E-RAB id 5 
+[2022-06-10 20:16:03.722391] Received UE Context Release Complete. MME-UE S1AP Id 11
+[2022-06-10 20:16:03.722401] No UE context to release found. MME-UE S1AP Id: 11
+[2022-06-10 20:16:03.988857] Received Initial Context Setup Response
+[2022-06-10 20:16:03.988944] E-RAB Context Setup. E-RAB id 5
+[2022-06-10 20:16:03.988974] E-RAB Context -- eNB TEID 0xc; eNB GTP-U Address 127.0.1.1
+[2022-06-10 20:16:03.989003] Initial Context Setup Response triggered from Service Request.
+[2022-06-10 20:16:03.989029] Sending Modify Bearer Request.
+[2022-06-10 20:16:03.989055] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_MODIFY_BEARER_REQUEST
+[2022-06-10 20:20:09.889953] Initial UE message: NAS Message Type Unknown
+[2022-06-10 20:20:09.890001] Received Initial UE message -- Service Request
+[2022-06-10 20:20:09.890012] Service request -- S-TMSI 0x7c5bf64c
+[2022-06-10 20:20:09.890019] Service request -- eNB UE S1AP Id 13
+[2022-06-10 20:20:09.890038] Service Request -- Short MAC valid
+[2022-06-10 20:20:09.890044] There are active E-RABs, send release access bearers request
+[2022-06-10 20:20:09.890051] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_RELEASE_ACCESS_BEARERS_REQUEST
+[2022-06-10 20:20:09.890057] Service Request -- User is ECM DISCONNECTED
+[2022-06-10 20:20:09.890063] UE previously assigned IP: 172.16.0.2
+[2022-06-10 20:20:09.890070] Generating KeNB with UL NAS COUNT: 25
+[2022-06-10 20:20:09.890076] UE Ctr TEID 0
+[2022-06-10 20:20:09.890083] Sent Initial Context Setup Request. E-RAB id 5 
+[2022-06-10 20:20:09.890111] Received UE Context Release Complete. MME-UE S1AP Id 12
+[2022-06-10 20:20:09.890120] No UE context to release found. MME-UE S1AP Id: 12
+[2022-06-10 20:20:10.253793] Received Initial Context Setup Response
+[2022-06-10 20:20:10.253834] E-RAB Context Setup. E-RAB id 5
+[2022-06-10 20:20:10.253843] E-RAB Context -- eNB TEID 0xd; eNB GTP-U Address 127.0.1.1
+[2022-06-10 20:20:10.253850] Initial Context Setup Response triggered from Service Request.
+[2022-06-10 20:20:10.253856] Sending Modify Bearer Request.
+[2022-06-10 20:20:10.253863] Received GTP-C PDU. Message type: GTPC_MSG_TYPE_MODIFY_BEARER_REQUEST
