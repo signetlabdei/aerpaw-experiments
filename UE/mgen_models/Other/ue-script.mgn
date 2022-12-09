@@ -1,0 +1,13 @@
+# MGEN script begins here
+# These are some "Transmission Event" script lines
+
+0.0 ON 1 UDP SRC 5001 DST 172.16.0.1/5001 PERIODIC [1 1024]
+
+# These are some "Reception Event" script lines
+# Monitor some ports for UDP traffic
+0.0 LISTEN UDP 5001
+
+# More MGEN lines (terminate the flows)
+#10.0 1 OFF
+
+# MGEN script ends here

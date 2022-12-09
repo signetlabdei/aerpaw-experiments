@@ -1,0 +1,19 @@
+# MGEN script begins here
+# These are some "Transmission Event" script lines
+
+# BURST [REGULAR|RANDOM <aveInterval (sec)> <patternType> [<patternParams>] FIXED|EXPONENTIAL <aveDuration (sec)>]
+
+# The packet size is 8192 Bytes
+0.0 ON 1 UDP SRC 5001 DST 172.16.0.1/5001 BURST [REGULAR 0.1 PERIODIC [3925 8192] FIXED 0.05]
+
+# These are some "Reception Event" script lines
+# Monitor some ports for UDP traffic
+0.0 LISTEN UDP 5001
+
+ANALYTICS 
+WINDOW 2
+
+# More MGEN lines (terminate the flows)
+1800.0 OFF 1
+
+# MGEN script ends here

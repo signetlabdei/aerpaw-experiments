@@ -1,0 +1,12 @@
+# MGEN script begins here
+
+# These are some "Reception Event" script lines
+# Monitor some ports for UDP traffic
+0.0 LISTEN UDP 5001
+0.0 LISTEN UDP 5002
+ANALYTICS
+WINDOW 0.5
+# More MGEN lines (terminate the flows)
+#10.0 1 OFF
+
+# MGEN script ends here
